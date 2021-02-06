@@ -8,7 +8,7 @@
 
 ### Revision 17
 
-- [Release Notes]()
-- [Activity Log]()
+- [Release Notes](https://github.com/tomminux/f5-udf-better-together-bp-docs/blob/main/revision-17/release-notes.md)
+- [Activity Log](https://github.com/tomminux/f5-udf-better-together-bp-docs/blob/main/revision-17/activity-log.md)
 
 
