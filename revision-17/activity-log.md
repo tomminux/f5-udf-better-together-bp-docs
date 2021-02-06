@@ -84,6 +84,8 @@ ka 2.bigip-ctlr-common.yaml
 ka 3.bigip-ctlr-deployment.yaml
 ```
 
+#### BIG-IP CIS Controller in k8s
+
 Deploy performance-monitoring namespace and prometheus
 
 ```
@@ -94,3 +96,28 @@ cd ~/k8s-manifests/performance-monitoring/
 ka 1.prometheus.yaml
 ka 9.bigip-ctlr-configMap.yaml
 ```
+
+## Rancher GUI Reconfiguration
+
+udf-k8s Cluster object deleted  
+udf-k8s cluster re-imported  
+Created the following projects:
+
+- E-Commerce 
+- Blog Apps
+- Banking Apps
+- Online Boutique
+
+performance-monitoring and ingress-services moved under "System"
+
+On k8s cluster: from infra-server all use cases namesapces created
+
+```
+ka e-commerce/0.namespace-preparation/0.namespace.yaml
+ka banking-apps/0.namespace-preparation/0.namespace.yaml
+ka blog-apps/0.namespace-preparation/0.namespace.yaml
+ka online-boutique/0.namespace-preparation/0.namespace.yaml
+ka nap-e-commerce/0.namespace-preparation/0.namespace.yaml
+```
+
+All namespace moved under respective projects in Rancher GUI
