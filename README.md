@@ -1,4 +1,4 @@
-# F5 / NGINX Better Together - UDF USe Cases and Revision
+# F5 / NGINX Better Together - UDF Use Cases and Revision History
 
 ## Use Cases
 
