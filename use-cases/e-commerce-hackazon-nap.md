@@ -4,11 +4,11 @@
 
 ### What is Hackazon
 
-PLease see the description on the original use case [here](https://github.com/tomminux/f5-udf-better-together-bp-docs/blob/main/use-cases/e-commerce-hackazon.md#what-is-hackazon)
+Please see the description on the original use case [here](https://github.com/tomminux/f5-udf-better-together-bp-docs/blob/main/use-cases/e-commerce-hackazon.md#what-is-hackazon)
 
 ### What we are going to deploy in Kubernetes and BIG-IP
 
-We are using the same namespace calle **e-commerce** we already deployed and used in the original Hackazon use case; please, follow the steps already described [here](https://github.com/tomminux/f5-udf-better-together-bp-docs/blob/main/use-cases/e-commerce-hackazon.md#deploying-manually-with-kubectl-and-manifest-files) to deploy the "e-commerce" namespace and, if needed, the unprotected Hackazon POD.
+We are using the same namespace called **e-commerce** we already deployed and used in the original Hackazon use case; please, follow the steps already described [here](https://github.com/tomminux/f5-udf-better-together-bp-docs/blob/main/use-cases/e-commerce-hackazon.md#deploying-manually-with-kubectl-and-manifest-files) to deploy the "e-commerce" namespace and, if needed, the unprotected Hackazon POD.
 
 ## The Role play
 

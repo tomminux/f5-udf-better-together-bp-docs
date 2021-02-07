@@ -1,4 +1,4 @@
-# Rev. 17 Release Notes
+# Rev. 18 Release Notes
 
 ## Kubernetes k8s Cluster
 

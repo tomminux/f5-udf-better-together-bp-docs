@@ -7,9 +7,9 @@
 
 ## Revisions
 
-### Revision 17
+### Revision 18
 
-- [Release Notes](https://github.com/tomminux/f5-udf-better-together-bp-docs/blob/main/revision-17/release-notes.md)
-- [Activity Log](https://github.com/tomminux/f5-udf-better-together-bp-docs/blob/main/revision-17/activity-log.md)
+- [Release Notes](https://github.com/tomminux/f5-udf-better-together-bp-docs/blob/main/revision-18/release-notes.md)
+- [Activity Log](https://github.com/tomminux/f5-udf-better-together-bp-docs/blob/main/revision-18/activity-log.md)
 
 
