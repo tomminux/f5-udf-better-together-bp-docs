@@ -13,6 +13,20 @@ A new access method called "Firefox" was added to BIG-IP Access Methods
 
 ## Adding Aspen Mesh configuration in istio-system
 
+### Changes to kube-apiserver.yaml
+In order to run Aspen Mesh on our kubernetes cluster in UDF, we need to change the configuration of the Kubernetes' API Server, editing the following file **on k8s-master node**:
+
+    vim /etc/kubernetes/manifests/kube-apiserver.yaml
+    
+and adding the following commmand line arguments in the POD's configuration:
+
+    - --service-account-issuer=kubernetes.default.svc
+    - --api-audiences=api,istio-ca
+    - --service-account-key-file=/etc/kubernetes/pki/etcd/server.key
+    - --service-account-signing-key-file=/etc/kubernetes/pki/etcd/server.key
+    
+### Aspen Mesh installation
+
 - Added the istio-namespace
 - Added the storageClass infra-server-nfs-server-istio with nfs-provisioner
 
@@ -24,3 +38,16 @@ We are going to use Bart Van Bos's repository for an Aspen Mesh deployment using
     kubectl apply -f ~/k8s-manifests/istio-system/0.namespace-preparation/1.storageClass.yaml
     kubectl apply -f ~/k8s-manifests/istio-system/0.namespace-preparation/2.pvc.yaml
     
+- Added service-80.yaml and service-443.yaml to istio-ingress and modified service.yaml
+
+```   
+ls -al ~/udf-aspenmesh-k8s-slim/aspenmesh-1.6.14-am2/manifests/charts/gateways/istio-ingress/templates/
+-rw-rw-r-- 1 ubuntu ubuntu  1471 Feb 14 18:11 service-443.yaml
+-rw-rw-r-- 1 ubuntu ubuntu  1468 Feb 14 18:11 service-80.yaml
+-rw-rw-r-- 1 ubuntu ubuntu  1464 Feb 14 18:11 service.yaml
+```
+    
+- Re-configured ~/udf-aspenmesh-k8s-slim/aspenmesh-1.6.14-am2/manifests/charts/gateways/istio-ingress/values.yam
+
+
+
