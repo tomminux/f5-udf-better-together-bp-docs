@@ -12,4 +12,8 @@
 - [Release Notes](https://github.com/tomminux/f5-udf-better-together-bp-docs/blob/main/revision-18/release-notes.md)
 - [Activity Log](https://github.com/tomminux/f5-udf-better-together-bp-docs/blob/main/revision-18/activity-log.md)
 
+### Revision 19
+
+- [Release Notes](https://github.com/tomminux/f5-udf-better-together-bp-docs/blob/main/revision-19/release-notes.md)
+- [Activity Log](https://github.com/tomminux/f5-udf-better-together-bp-docs/blob/main/revision-19/activity-log.md)
 
