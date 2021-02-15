@@ -48,6 +48,20 @@ ls -al ~/udf-aspenmesh-k8s-slim/aspenmesh-1.6.14-am2/manifests/charts/gateways/i
 ```
     
 - Re-configured ~/udf-aspenmesh-k8s-slim/aspenmesh-1.6.14-am2/manifests/charts/gateways/istio-ingress/values.yam
+- Re-configured ~/udf-aspenmesh-k8s-slim/aspenmesh-1.6.14-am2/manifests/charts/istio-control/istio-discovery/charts/aspen-mesh-controlplane
 
+```
+values.yaml
+templates/service.yaml
+```
 
+## Online Boutique - Aspem Mesh enabled
 
+Online boutique reconfigured to run in a istio-enabled namespace:
+
+    cd /home/ubuntu/k8s-manifests/online-boutique-am 
+    ka 0.namespace.yaml
+    ka 1.kubernetes-manifests.yaml
+    ka 2.frontend-gateway.yaml
+    
+    
