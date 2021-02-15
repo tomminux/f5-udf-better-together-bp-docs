@@ -16,7 +16,9 @@
 
 ```
 cd ~/udf-aspenmesh-k8s-slim
+make namespace-preparation
 make install-am
+make post-install
 ```
 
 ## Online Boutique - Aspem Mesh enabled
