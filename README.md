@@ -6,6 +6,9 @@
 
 - [E Commerce - Hackazon](https://github.com/tomminux/f5-udf-better-together-bp-docs/blob/main/docs/use-cases/e-commerce-hackazon.md)
 - [E Commerce - Hackazon with NGINX App Protect Sidecar Proxy](https://github.com/tomminux/f5-udf-better-together-bp-docs/blob/main/docs/use-cases/e-commerce-hackazon-nap.md)
+- [E Commerce - Hackazon with NAP on NGINX KIC in nap-e-commerce-namespace](https://github.com/tomminux/f5-udf-better-together-bp-docs/blob/main/docs/use-cases/nap-e-commerce-hackazon.md)
+- [E Commerce - Online Boutique](https://github.com/tomminux/f5-udf-better-together-bp-docs/blob/main/docs/use-cases/online-boutique.md)
+- [E Commerce - Online Boutique with NAP on KIC](https://github.com/tomminux/f5-udf-better-together-bp-docs/blob/main/docs/use-cases/nap-online-boutique.md)
 
 ### [Generic docs](https://github.com/tomminux/f5-udf-better-together-bp-docs/tree/main/docs)
 
